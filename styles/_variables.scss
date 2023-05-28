@@ -1,30 +1,18 @@
 // COLORS
 
 :root {
+// ### Primary
 
-        // PRIMARY
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
 
-    // main background
-    --Very-dark-blue: hsl(233, 47%, 7%);
-    // card background
-    --Dark-desaturated-blue: hsl(244, 38%, 16%);
-    // accent
-    --Soft-violet: hsl(277, 64%, 61%);
+// ### Neutral
 
-        // NEUTRAL
-
-    // main heading, stats
-    --White: hsl(0, 0%, 100%);
-    // main paragraph
-    --Slightly-transparent-white-paragraph: hsla(0, 0%, 100%, 0.75);
-    // stat headings
-    --Slightly-transparent-white-headings: hsla(0, 0%, 100%, 0.6);
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsla(224, 23%, 55%, 0.8);
+--Dark-blue: hsl(223, 47%, 23%);
 }
 
-// FONTS
+// TYPOGRAPHY 
 
-    // Inter, 400, 700
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-    // Lexend Deca, 400
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');

@@ -1,0 +1,162 @@
+/* MAIN SETTINGS */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsla(224, 23%, 55%, 0.8);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: var(--Pale-blue);
+}
+
+main {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px var(--Desaturated-blue);
+}
+
+/* TYPOGRAPHY */
+h1 {
+  font-size: 1.4rem;
+  color: var(--Dark-blue);
+}
+
+p {
+  font-size: 0.76rem;
+  text-align: center;
+  color: var(--Desaturated-blue);
+}
+
+/* IMAGE */
+#main-image {
+  height: 33%;
+  border-radius: 20px 20px 0 0;
+}
+
+/* TEXT_BOX */
+#text-box {
+  height: 67%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 38px 20px 38px;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+/* SUBSCRIPTION_DIV */
+#subscription {
+  background-color: var(--Very-pale-blue);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#subscription p {
+  line-height: 1.7;
+}
+#subscription a {
+  margin-left: auto;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--Bright-blue);
+}
+
+#subscription > a:hover {
+  cursor: pointer;
+  color: var(--Desaturated-blue);
+}
+
+#music-icon {
+  width: 35px;
+  margin-right: 15px;
+}
+
+.bold {
+  color: var(--Dark-blue);
+  font-weight: 900;
+}
+
+/* BUTTONS SETTINGS */
+button {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+}
+
+#payment {
+  background-color: var(--Bright-blue);
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+#payment:hover {
+  background-color: var(--Desaturated-blue);
+  cursor: pointer;
+}
+
+#cancel {
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+#cancel:hover {
+  color: var(--Dark-blue);
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+footer a {
+  color: var(--Bright-blue);
+}
+
+footer > a:hover {
+  cursor: pointer;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 17px;
+  }
+  #text-box {
+    padding: 35px 28px 20px 28px;
+  }
+}/*# sourceMappingURL=index.css.map */
