@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution](https://github.com/kenzo-wegher/frontendmentor-order-summary-component)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://kenzo-wegher.github.io/frontendmentor-order-summary-component/)
 
 ## My process
 
