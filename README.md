@@ -1,6 +1,6 @@
-# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - Order summary card solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -10,7 +10,11 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -19,16 +23,17 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
-![](images/screenshot.png)
+![](/images/screenshot.png)
+
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/kenzo-wegher/frontendmentor-stats-preview-card-component)
-- Live Site URL: [Live site URL](https://kenzo-wegher.github.io/frontendmentor-stats-preview-card-component/)
+- Solution URL: [My solution](https://github.com/kenzo-wegher/frontendmentor-order-summary-component)
+- Live Site URL: [Live site URL](https://your-live-site-url.com)
 
 ## My process
 
@@ -37,7 +42,15 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Sass/scss
+- CSS Grid
+- Sass/Scss
+
+
+### Continued development
+
+Accessibility; 
+Sizing correctly elements using margin, padding, flex and grid;
+Use BEM methodology.
 
 
 ## Author
