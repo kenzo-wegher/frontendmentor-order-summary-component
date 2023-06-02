@@ -25,7 +25,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background: url(../images/pattern-background-desktop.svg) no-repeat, #E1E9Ff;
+  background: url(/styles/pattern-background-desktop.svg) no-repeat, #E1E9Ff;
   background-size: contain;
 }
 
